@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Welcome to the first assignment of this week! In this assignment, you'll be building a very deep convolutional network using Residual Networks (ResNets). The ResNets architecture, introduced by He et al., allows us to train much deeper neural networks than were previously feasible. Very deep networks have the potential to represent very complex functions and learn features at multiple levels of abstraction. However, training such deep networks can be challenging due to vanishing gradients, which can slow down gradient descent during backpropagation.
+In this project we will be building a very deep convolutional network using Residual Networks (ResNets). The ResNets architecture, introduced by He et al., allows us to train much deeper neural networks than were previously feasible. Very deep networks have the potential to represent very complex functions and learn features at multiple levels of abstraction. However, training such deep networks can be challenging due to vanishing gradients, which can slow down gradient descent during backpropagation.
 
 The key innovation of ResNets is the introduction of "shortcut" or "skip connections." These connections allow the model to skip over certain layers and directly connect earlier layers to later layers, facilitating the flow of gradients and making it easier to learn an identity function. As a result, ResNets can be stacked to form very deep networks with little risk of harming training set performance.
 
-By the end of this assignment, you'll be able to:
+By the end of this project, we will be able to:
 1. Implement the basic building blocks of ResNets in a deep neural network using Keras.
 2. Put together these building blocks to implement and train a state-of-the-art neural network for image classification.
 3. Implement a skip connection in your network.
@@ -98,6 +98,6 @@ The ResNet-50 model consists of several stages and blocks. The architecture is a
 
 ### Implementation
 
-In the implementation, you'll be using Keras to build the ResNet-50 model and its building blocks. You'll implement both the identity block and the convolutional block and then combine them to create the complete ResNet-50 model. Each building block will consist of Conv2D, BatchNormalization, ReLU activation, and Add operations.
+In the implementation, we will be using Keras to build the ResNet-50 model and its building blocks. we'll implement both the identity block and the convolutional block and then combine them to create the complete ResNet-50 model. Each building block will consist of Conv2D, BatchNormalization, ReLU activation, and Add operations.
 
 Let's get started and build a powerful ResNet-50 model for image classification using Keras!
