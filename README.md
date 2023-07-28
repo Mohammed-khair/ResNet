@@ -17,6 +17,8 @@ Let's dive into the details of implementing the ResNet building blocks and build
 
 ### 1. The Identity Block
 
+![Image](https://github.com/Mohammed-khair/ResNet/blob/main/._idblock3_kiank.png?raw=true)
+
 The identity block is the standard building block used in ResNets, where the input activation has the same dimensions as the output activation. This block skips over 3 hidden layers. The individual steps of the identity block are as follows:
 
 #### First component of the main path:
