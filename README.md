@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project we will be building a very deep convolutional network using Residual Networks (ResNets). The ResNets architecture, introduced by He et al., allows us to train much deeper neural networks than were previously feasible. Very deep networks have the potential to represent very complex functions and learn features at multiple levels of abstraction. However, training such deep networks can be challenging due to vanishing gradients, which can slow down gradient descent during backpropagation.
+In this project we will be building a very deep convolutional network using Residual Networks (ResNets). The ResNets architecture, introduced by [He et al.](https://arxiv.org/pdf/1512.03385.pdf), allows us to train much deeper neural networks than were previously feasible. Very deep networks have the potential to represent very complex functions and learn features at multiple levels of abstraction. However, training such deep networks can be challenging due to vanishing gradients, which can slow down gradient descent during backpropagation.
 
 The key innovation of ResNets is the introduction of "shortcut" or "skip connections." These connections allow the model to skip over certain layers and directly connect earlier layers to later layers, facilitating the flow of gradients and making it easier to learn an identity function. As a result, ResNets can be stacked to form very deep networks with little risk of harming training set performance.
 
