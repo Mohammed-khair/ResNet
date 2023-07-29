@@ -13,6 +13,9 @@ By the end of this project, we will be able to:
 
 Let's dive into the details of implementing the ResNet building blocks and building a ResNet-50 model.
 
+You can find the code for the work here:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19G4gVFrj5bJ7uGErhQJ44znfp5h9aLn1?usp=sharing)
+
 ## Building a Residual Network
 
 ### 1. The Identity Block
